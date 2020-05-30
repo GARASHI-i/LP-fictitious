@@ -1,0 +1,600 @@
+@media (min-width: 1366px )
+{
+    html
+    {
+      width: 1366px;
+    }
+/* header **********************************/
+    .header
+    {
+      display: flex;
+      justify-content: flex-start;
+    }
+    .page-title h1
+    {
+      margin: 8px 0 0 120px;
+    }
+    .menu .nav ul
+    {
+      right: 129px;
+    }
+    .menu
+    {
+      width: 370px;
+    }
+    
+    .nav-list
+    {
+      margin-left: 57.6em;
+      width: 490px;
+      display: grid;
+      grid-template:
+      ".... .... .... .... .... .... ...."7px
+      "li-1 .... li-3 .... li-5 .... li-7"48px
+      "li-2 .... li-4 .... li-6 .... li-8"20px
+      /84px 40px 56px 40px 48px 32px 90px;
+    }
+    .nav-list li:nth-child(even) a
+    {
+      position: relative;
+      display: inline-block;
+      text-decoration: none;
+    }
+    
+    .profile-border01
+    {
+      position: relative;
+      top: -25px;
+      left: 0;
+      width: 84px;
+      height: 1px;
+      background: $color-br;
+    }
+    .profile-border02
+    {
+      position: relative;
+      top: -25px;
+      left: 0;
+      width: 56px;
+      height: 1px;
+      background: $color-br;
+    }
+    .profile-border03
+    {
+      position: relative;
+      top: -25px;
+      left: 0;
+      width: 42px;
+      height: 1px;
+      background: $color-br;
+    }
+    .profile-border04
+    {
+      position: relative;
+      top: -25px;
+      left: 0;
+      width: 84px;
+      height: 1px;
+      background: $color-gr;
+    }
+    .profile-border01,.profile-border02,.profile-border03,.profile-border04
+    {
+      display: none;
+    }
+
+/* hero ************************************/
+    .hero
+    {
+      width: 100vw;
+      height: 768px;
+      background-image: url("../image/top-image-pc.png");
+      background-size: 100%;
+      background-position: 0% 0%;
+      background-repeat: no-repeat;
+    }
+    .message-en
+    {
+      position: relative;
+      top: 334px;
+      width: 850px;
+          & h3
+          {
+            padding-left: 120px;
+          }
+    }
+    .message-ja
+    {
+      position: relative;
+      top: 358px;
+      width: 533px;
+          & h3
+          {
+            padding-left: 120px;
+          }
+    }
+    .btn
+    {
+      position: absolute;
+      top: 82%;
+    }
+
+/* profile *********************************/
+    .profile
+    {
+      height: 716px;
+    }
+    .profile-images
+    {
+      width: 400px;
+      height: 500px;
+      margin: 0px;
+    }
+    .back-design01
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+          & img
+          {
+              position: absolute;
+              top: 0;
+              right: 17px;
+          }
+          & p
+          {
+              width: 289px;
+              height: 232px;
+              position: absolute;
+              top: 0;
+              right: 23px;
+              font: 120px/232px Bad Script;
+          }
+    }
+    .back-design02 img
+    {
+      position: absolute;
+      bottom: -88px;
+    }
+/* grid layout */
+    .profile-grid
+    {
+      padding-top: 128px;
+      width: 981px;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      display: grid;
+      grid-template:
+      "padding2 padding title" 8px
+      "img padding title" 83px
+      "img padding text" 353px
+      "img padding btn" 56px/
+      400px 88px 493px;
+    } 
+    .padding
+    {
+      grid-area: padding;
+    }
+    .padding2
+    {
+      grid-area: padding;
+    }
+    .profile-title
+    {
+      height: 51px;
+      grid-area: title;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+    }
+    .profile-design-area
+    {
+      grid-area: img;
+    }
+    .profile-text
+    {
+      width: 493px;
+      height: 313px;
+      grid-area: text;
+      padding: 0;
+      margin: 0;
+          & p
+          {
+            font-size: 18px;
+            line-height: 1.95;
+          }
+    }
+    .btn-area
+    {
+      width: 440px;
+      margin: 0;
+      grid-area: btn
+          
+    }
+    .btn-sns
+    {
+      width: 200px;
+      padding: 0;
+      margin: 0;
+    }
+    .btn-left
+    {
+      margin-right: 40px;
+    }
+
+    .profile-design-outline
+    {
+      position: absolute;
+      top: -8px;
+      left: 50%;
+      transform: translateX(-52%);
+      z-index: -1;
+      width: 400px;
+      height: 500px;
+      outline: solid 1px $color-gr;
+    }
+    .profile-design-outline2
+    {
+      position: absolute;
+      top: 8px;
+      left: 50%;
+      transform: translateX(-48%);
+      z-index: -1;
+      width: 400px;
+      height: 500px;
+      outline: solid 1px $color-gr;
+    }
+
+
+/* works ***********************************/
+    .works
+    {
+      height: 1083px;
+    }
+    .back-design-title p
+    {
+        width: 100vw;
+        height: 237px;
+        font: 120px/237px Bad Script;
+        text-align: center;
+    }
+    .works-hedding
+    {
+      position: relative;
+      top: 0;
+      transform: translateY(30%);
+      height: 51px;
+      padding-bottom: 0;
+    }
+    
+/* grid layout */
+    .works-grid
+    {
+      padding-top: 64px;
+      width: 890px;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      display: grid;
+      grid-template:
+      "img padding title" 61px
+      "img padding text" 111px
+      "img padding btn" 40px/
+      350px 40px 500px;
+    } 
+    .works-design-area
+    {
+      grid-area: img;
+    }
+    .works-title
+    {
+      grid-area: title;
+    }
+    .works-text
+    {
+      grid-area: text;
+    }
+    .btn-toSite
+    {
+      grid-area: btn;
+      margin: 16px 0 0 0;
+      position: relative;
+      top: 0;
+      left: 100%;
+      transform: translateX(-100%);
+    }
+    .works-padding,.works-padding
+    {
+      grid-area: padding;
+    }
+    .works-image
+    {
+      position: relative;
+          & img
+          {
+            width: 350px;
+            height: 200px;
+          }
+    }
+    #works-image
+    {
+      margin: 0px;
+    }
+    .works-design-outline
+    {
+      position: absolute;
+      top: -8px;
+      left: 50%;
+      transform: translateX(-52%);
+      z-index: 100;
+      width: 350px;
+      height: 200px;
+      outline: solid 1px $color-gr;
+    }
+    .works-design-outline2
+    {
+      position: absolute;
+      top: 8px;
+      left: 50%;
+      transform: translateX(-48%);
+      z-index: 100;
+      width: 350px;
+      height: 200px;
+      outline: solid 1px $color-gr;
+    }
+    .works-design-outline3
+    {
+      position: absolute;
+      top: 8px;
+      left: 50%;
+      transform: translateX(-47.5%);
+      z-index: 100;
+      width: 350px;
+      height: 200px;
+      outline: solid 1px $color-gr;
+    }
+    .works-grid2
+    {
+      padding-top: 48px;
+      width: 890px;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      display: grid;
+      grid-template:
+      "img padding title" 109px
+      "img padding text" 111px
+      "padding2 padding btn" 40px/
+      350px 40px 500px;
+    } 
+    
+    .works-grid3
+    {
+      padding-top: 32px;
+      width: 890px;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      display: grid;
+      grid-template:
+      "img padding title" 61px
+      "img padding text" 135px
+      "img padding btn" 40px/
+      350px 40px 500px;
+    }
+    .img-3
+    {
+      margin: 0;
+    }
+    .w-3
+    {
+      margin: 16px 0 0 0;
+    }
+    .back-design04
+    {
+      position: relative;
+      bottom: -100px;
+      right: 0;
+          & img
+          {
+              position: absolute;
+              bottom: 0;
+              right: 17px;
+              z-index: 10;
+          }
+    }
+
+/* skill ***********************************/
+    .skill
+    {
+      height: 520px;
+    }
+    .back-design05 img
+    {
+      position: absolute;
+      top: 0;
+      right: 17px;
+    }
+    .skill-grid
+    {
+      padding-top: 120px;
+      width: 1036px;
+      margin-left: 162px;
+      display: grid;
+      grid-template:
+      "title padding menu" 91px
+      "text padding menu" 230px/
+      500px 80px 456px;
+    }
+    .skill-title
+    {
+      grid-area: title;
+      padding: 0;
+      text-align: left;
+          & h2
+          {
+            font: 36px/51px Sawarabi Gothic;
+          }
+    }
+    .skill-text-area
+    {
+      grid-area:text;
+      width: 500px;
+    }
+    .skill-text
+    {
+      width: 500px;
+      height: 205px;
+      margin: 0;
+    }
+    .skill-text p
+    {
+      font: 18px/36px Sawarabi Gothic;
+    }
+    .skill-menu
+    {
+      grid-area: menu;
+      margin: 0;
+    }
+    .back-design06
+    {
+      position: relative;
+      bottom: 0;
+      left: 0;
+          & img
+          {
+              position: absolute;
+              bottom: -79px;
+          }
+    }
+
+/* contact *********************************/
+    .contact
+    {
+      height: 939px;
+    }
+    .back-design-title3 p
+    {
+      width: 334px;
+      height: 237px;
+      font: 120px/237px Bad Script;
+    }
+    .contact-title
+    {
+      position: relative;
+      top: 40px;
+          & h2
+          {
+            font: 36px/51px Sawarabi Gothic;
+          }
+    }
+    
+/* 封筒 */
+    .letter
+    {
+      width: 750px;
+      margin: 91.5px auto 0 auto;
+      height: 520px;
+      background: #FFFFFF;
+      border: 1px solid $color-gr;
+      position: relative;
+    }
+
+    .diagonal-line-left
+    {
+      display: table;
+      width: 375px;
+      height: 1px;
+      background-color: $color-gr;
+      transform: skewY(23deg);
+      margin-top: 79.5px;
+    }
+    .border-bottom
+    {
+      border-bottom: solid 0px $color-gr;
+    }
+    .diagonal-line-right
+    {
+      display: table;
+      width: 375px;
+      height: 1px;
+      background-color: $color-gr;
+      margin-top: -1px;
+      margin-left: 100%;
+      transform: translateX(-100%) skewY(-23deg);
+    }
+/* 中身 */
+    .form-grid
+    {
+      padding: 90px 0 0 57px;
+      width: 750px;
+      display: grid;
+      grid-template:
+      "email padding subject" 56px
+      "name padding message"191px/
+      300px 53px 300px;
+    }
+    .form-email
+    {
+      grid-area: email;
+    }
+    .form-name
+    {
+      grid-area: name;
+    }
+    .form-subject
+    {
+      grid-area: subject;
+    }
+    .form-message
+    {
+      grid-area: message;
+    }
+    .form-padding
+    {
+      grid-area: padding;
+    }
+    .form-padding
+    {
+      grid-area: padding2;
+    }
+
+/* 封筒より下 */
+    .btn-postit
+    {
+      margin-top: 56px;
+    }
+    .back-design07
+    {
+      position: relative;
+      bottom: 0;
+      right: 0;
+          & img
+          {
+              position: absolute;
+              bottom: -118px;
+              right: 17px;
+              z-index: 10;
+          }
+    }
+
+/* footer **********************************/
+
+
+
+
+    .back-design09
+    {
+      position: relative;
+      bottom: 0;
+      right: 0;
+          & img
+          {
+              position: absolute;
+              top: -31px;
+              right: 17px;
+              z-index: 10;
+          }
+    }
+
+}
