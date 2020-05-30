@@ -255,7 +255,7 @@ html {
   z-index: 1;
   width: 100vw;
   height: 667px;
-  background-image: url("../image/top-image.png");
+  background-image: url("image/top-image.png");
   background-size: 100%;
   background-position: 46% 50%;
   background-repeat: no-repeat; }
