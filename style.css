@@ -1134,7 +1134,7 @@ textarea::placeholder {
     width: 768px;
     height: 237px;
     font: 120px/237px Bad Script;
-    position: relative;
+    position: absolute;
     left: 50%;
     transform: translateX(-50%); }
 
