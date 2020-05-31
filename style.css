@@ -585,7 +585,7 @@ html {
   width: 100vw;
   height: 1838px;
   background: #F9F9F9; }
-.back-design-titll {
+.back-design-title {
   position: relative;
       left: 50%;
       transform: translateX(-50%); }
@@ -1461,7 +1461,7 @@ textarea::placeholder {
   .works {
     height: 1083px; }
 
-    .back-design-title {
+    .back-design-title p {
     width: 270px;
     height: 237px;
     font: 120px/237px Bad Script;
