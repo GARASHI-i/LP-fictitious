@@ -1465,9 +1465,10 @@ textarea::placeholder {
     width: 270px;
     height: 237px;
     font: 120px/237px Bad Script;
-    position: absolute;
+    position: relative;
     left: 50%;
-    transform: translateX(-50%); }
+    transform: translateX(-50%);
+    z-index:20000 }
   
   .works-hedding {
     position: relative;
