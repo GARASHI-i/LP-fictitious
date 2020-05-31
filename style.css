@@ -1097,7 +1097,7 @@ textarea::placeholder {
 
   .back-design01 img {
     position: absolute;
-    right: 35px; }
+    right: 17px; }
   .back-design01 p {
     width: 289px;
     height: 237px;
@@ -1116,7 +1116,7 @@ textarea::placeholder {
     .back-design05{
     position: relative;
     top: 0;
-    right: 0;
+    right: 17px;
       & img{
           position: absolute;
           top: 0;
@@ -1169,7 +1169,7 @@ textarea::placeholder {
   .back-design04 img {
     position: absolute;
     bottom: -16px;
-    right: 35px;
+    right: 17px;
     z-index: 10; }
 
   .w-1, .w-2, .w-3 {
@@ -1259,7 +1259,7 @@ textarea::placeholder {
     .back-design07 img {
       position: absolute;
       bottom: -88px;
-      right: 35px;
+      right: 17px;
       z-index: 10; } }
 @media (min-width: 1366px) {
   html {
