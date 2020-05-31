@@ -1168,7 +1168,7 @@ textarea::placeholder {
 
   .back-design04 img {
     position: absolute;
-    bottom: -16px;
+    bottom: 0;
     right: 17px;
     z-index: 10; }
 
@@ -1577,7 +1577,7 @@ textarea::placeholder {
   .back-design05 img {
     position: absolute;
     top: 0;
-    right: 17px; }
+    right: 0; }
 
   .skill-grid {
     padding-top: 120px;
