@@ -403,8 +403,8 @@ html {
     width: 375px;
     height: 197px;
     position: absolute;
-    top: 0;
-    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1;
     font: normal normal normal 100px/197px Bad Script;
     color: #F6F3EB;
