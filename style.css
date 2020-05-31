@@ -1138,6 +1138,7 @@ textarea::placeholder {
     left: 50%;
     transform: translateX(-50%); }
 
+
   .works-title {
     font: normal normal normal 32px/45px Sawarabi Gothic; }
 
@@ -1460,12 +1461,14 @@ textarea::placeholder {
   .works {
     height: 1083px; }
 
-  .back-design-title p {
-    width: 100vw;
+    .back-design-title {
+    width: 270px;
     height: 237px;
     font: 120px/237px Bad Script;
-    text-align: center; }
-
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); }
+  
   .works-hedding {
     position: relative;
     top: 0;
