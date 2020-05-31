@@ -981,7 +981,7 @@ textarea::placeholder {
   /* hero ************************************/
   .hero {
     height: 1023px;
-    background-image: url("../image/top-image@2x.png");
+    background-image: url("image/top-image@2x.png");
     background-size: 100%;
     background-position: 86% 0%; }
 
@@ -1314,7 +1314,7 @@ textarea::placeholder {
   .hero {
     width: 100vw;
     height: 768px;
-    background-image: url("../image/top-image-pc.png");
+    background-image: url("image/top-image-pc.png");
     background-size: 100%;
     background-position: 0% 0%;
     background-repeat: no-repeat; }
