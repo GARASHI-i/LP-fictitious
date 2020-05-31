@@ -585,7 +585,10 @@ html {
   width: 100vw;
   height: 1838px;
   background: #F9F9F9; }
-
+.back-design-titll {
+  position: relative;
+      left: 50%;
+      transform: translateX(-50%); }
 .works-hedding {
   font: normal normal normal 32px/47px "Sawarabi Gothic";
   letter-spacing: 0px;
