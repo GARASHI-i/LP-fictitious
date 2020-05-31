@@ -308,19 +308,19 @@ html {
   position: relative;
   top: 0;
   left: 0;
-  z-index: 10000;}
+  z-index: -1;}
   .back-design01 img {
     position: absolute;
     top: 0;
     right: 0;
-    z-index: -10; }
+    z-index: -1; }
   .back-design01 p {
     width: 241px;
     height: 197px;
     position: absolute;
     top: 0;
     right: 0;
-    z-index: -10000;
+    z-index: -1;
     font: normal normal normal 100px/197px Bad Script;
     color: #F6F3EB;
     padding-right: 6.4%; }
