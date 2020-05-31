@@ -397,7 +397,7 @@ html {
 
 .back-design-title
 {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
       & p
