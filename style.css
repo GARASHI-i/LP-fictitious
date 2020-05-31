@@ -1095,6 +1095,9 @@ textarea::placeholder {
     height: 371px;
     outline: solid 1px #325811; }
 
+  .back-design01 img {
+    position: absolute;
+    right: 17px;
   .back-design01 p {
     width: 289px;
     height: 237px;
@@ -1113,12 +1116,12 @@ textarea::placeholder {
     .back-design05{
     position: relative;
     top: 0;
-    right: 10px;
+    right: 0;
       & img{
           position: absolute;
           top: 0;
           right: 0;
-          z-index: 10; }
+          z-index: 17px; }
 }
   /* works ************************************/
   .works {
