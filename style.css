@@ -1613,7 +1613,7 @@ textarea::placeholder {
     -ms-grid-column-span: 1;
     grid-column: 1 / 2;
     width: 124px;
-    margin-right: 40px;
+    margin-right: 100px;
   }
   .li-2 {
     -ms-grid-row: 3;
