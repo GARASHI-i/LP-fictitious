@@ -1602,7 +1602,7 @@ textarea::placeholder {
     -ms-grid-rows: 7px 48px 20px;
         grid-template-rows: 7px 48px 20px;
     -ms-grid-columns: 84px 40px 56px 40px 48px 32px 90px 36px;
-        grid-template-columns: 84px 40px 56px 40px 48px 32px 90px 36px;
+        grid-template-columns: 124px  1px 56px 40px 48px 32px 90px 36px;
     margin: 0px;
   }
   .li-1 {
