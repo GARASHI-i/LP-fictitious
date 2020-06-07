@@ -108,7 +108,7 @@ input, select {
 /* @mixin *********************************/
 /* header *********************************/
 html {
-  width: 375px;
+  width: 374px;
   height: 62.5%;
   font-family: "Sawarabi Gothic";
   scroll-behavior: smooth;
@@ -207,18 +207,17 @@ html {
 }
 
 /* ﾊﾝﾊﾞｰｶﾞｰﾒﾆｭｰ ***************************/
-.header-cover {
-  display: none;
-  height: 100vh;
-  width: 100vw;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 800;
-  background-color: rgba(0, 0, 0, 0);
-}
-
-@media (max-width: 767px) {
+@media (max-width: 374px) {
+  .header-cover {
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 800;
+    background-color: rgba(0, 0, 0, 0);
+  }
   .menu {
     display: none;
     position: absolute;
@@ -1179,7 +1178,7 @@ textarea::placeholder {
           transform: translateX(-50%);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 375px) {
   html {
     width: 768px;
     scroll-padding-top: 80px;
@@ -1201,6 +1200,10 @@ textarea::placeholder {
     width: 426px;
     display: -ms-grid;
     display: grid;
+    -ms-grid-rows: 7px 48px 20px;
+        grid-template-rows: 7px 48px 20px;
+    -ms-grid-columns: 84px  40px 56px 40px 48px 32px 90px 36px;
+        grid-template-columns: 84px  40px 56px 40px 48px 32px 90px 36px;
     margin: 0px;
   }
   .li-1 {
@@ -1570,9 +1573,9 @@ textarea::placeholder {
   }
 }
 
-@media (min-width: 1366px) {
+@media (min-width: 768px) {
   html {
-    width: 1366px;
+    width: 100%;
   }
   /* header **********************************/
   .header {
@@ -1601,8 +1604,8 @@ textarea::placeholder {
     display: grid;
     -ms-grid-rows: 7px 48px 20px;
         grid-template-rows: 7px 48px 20px;
-    -ms-grid-columns: 84px 40px 56px 40px 48px 32px 90px 36px;
-        grid-template-columns: 124px  1px 56px 40px 48px 32px 90px 36px;
+    -ms-grid-columns: 84px 40px 56px 40px 48px 32px 90px;
+        grid-template-columns: 84px 40px 56px 40px 48px 32px 90px;
     margin: 0px;
   }
   .li-1 {
@@ -1612,8 +1615,6 @@ textarea::placeholder {
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1 / 2;
-    width: 124px;
-    text-align: center;
   }
   .li-2 {
     -ms-grid-row: 3;
@@ -1622,7 +1623,6 @@ textarea::placeholder {
     -ms-grid-column: 1;
     -ms-grid-column-span: 1;
     grid-column: 1 / 2;
-    width: 84px;
   }
   .li-3 {
     -ms-grid-row: 2;
@@ -1711,7 +1711,10 @@ textarea::placeholder {
     height: 1px;
     background: #325811;
   }
-  .profile-border01, .profile-border02, .profile-border03, .profile-border04 {
+  .profile-border01,
+  .profile-border02,
+  .profile-border03,
+  .profile-border04 {
     display: none;
   }
   /* hero ************************************/
@@ -1903,7 +1906,8 @@ textarea::placeholder {
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
   }
-  .works-padding, .works-padding {
+  .works-padding,
+  .works-padding {
     grid-area: padding;
   }
   .works-image {
@@ -2006,7 +2010,7 @@ textarea::placeholder {
   .skill-grid {
     padding-top: 120px;
     width: 1036px;
-    margin-left: 162px;
+    margin: 0 auto;
     display: -ms-grid;
     display: grid;
     grid-template: "title padding menu" 91px
@@ -2067,7 +2071,7 @@ textarea::placeholder {
     width: 750px;
     margin: 91.5px auto 0 auto;
     height: 520px;
-    background: #FFFFFF;
+    background: #ffffff;
     border: 1px solid #325811;
     position: relative;
   }
@@ -2099,7 +2103,9 @@ textarea::placeholder {
     width: 750px;
     display: -ms-grid;
     display: grid;
-    grid-template: "email padding subject" 56px "name padding message" 191px/300px 53px 300px;
+    grid-template: "email padding subject" 56px
+ "name padding message" 191px/
+ 300px 53px 300px;
   }
   .form-email {
     grid-area: email;
