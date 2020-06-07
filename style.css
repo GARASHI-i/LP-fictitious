@@ -130,9 +130,7 @@ html {
           justify-content: space-between;
   background-color: rgba(255, 255, 255, 0.9);
 }
-.nav-font-SG{
-    padding: 0;
-  }
+
 .page-title h1 {
   display: inline-block;
   text-align: left;
@@ -1590,6 +1588,9 @@ textarea::placeholder {
         -ms-flex-pack: start;
             justify-content: flex-start;
     overflow-x: hidden;
+  }
+  .nav-font-SG{
+    padding: 0;
   }
   .page-title h1 {
     margin: 8px 0 0 120px;
